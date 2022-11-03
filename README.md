@@ -52,7 +52,7 @@ two methods for circlePlot
 - 配置config文件，可以根据我提供的示例config文件进行修改，文件名为"circos.allChromsome.conf";
 - config文件重要参数说明：
   - 第一行：karyotype = /Data2/weigs/5.ForTest/92.circosTest/karyotype.txt 填写前面配置的karyotype.txt文件的绝对路径；
-  - 49行-90行：填写前面生成的数据文件，务必要嵌套在<plots> </plots>里和<plot> </plot>里；
+  - 49行-90行：填写前面生成的数据文件，务必要嵌套在\<plots\> \</plots\>里和\<plot\> \</plot\>里；
     ![image](https://user-images.githubusercontent.com/26337757/199650536-35ac2817-2ef3-4a19-929c-bdfa06353b9b.png)
 
     - type：绘制的类型，可以是line, histogram, heatmap等
