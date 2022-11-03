@@ -53,6 +53,8 @@ two methods for circlePlot
 - config文件重要参数说明：
   - 第一行：karyotype = /Data2/weigs/5.ForTest/92.circosTest/karyotype.txt 填写前面配置的karyotype.txt文件的绝对路径；
   - 49行-90行：填写前面生成的数据文件，务必要嵌套在<plots> </plots>里和<plot> </plot>里；
+    ![image](https://user-images.githubusercontent.com/26337757/199650536-35ac2817-2ef3-4a19-929c-bdfa06353b9b.png)
+
     - type：绘制的类型，可以是line, histogram, heatmap等
     - file：输入文件的绝对路径；
     - show：是否展示；
@@ -64,6 +66,8 @@ two methods for circlePlot
 
 - 运行命令：circos -conf circos.allChromsome.conf ；结果文件名默认为circos.png和circos.svg 注意生成结果后重命名，防止前后分析结果覆盖；
 - 分析结果示例：
+  ![image](https://user-images.githubusercontent.com/26337757/199650509-b393c3c2-3032-4c08-93ec-feccf71b07c1.png)
+
 
 
 
@@ -73,6 +77,7 @@ two methods for circlePlot
 - 同时修改config文件，在ideogram 条目中，将default改为900u(可以自调节大小测试)；第一行karyotype 注意修改为上一步生成的karyotype.onlyChr1.txt 文件的绝对路径；
 - 运行命令`circos -conf circos.onlyChr1.conf`
 - 分析结果示例：
+  ![image](https://user-images.githubusercontent.com/26337757/199650464-e9433a07-c6c9-4e4e-8c7f-88f20bc2b7b1.png)
 
 
 
