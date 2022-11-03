@@ -91,10 +91,16 @@ conda install -c conda-forge r-circlize
 
 ### 脚本和示例文件
 
-可以参考R脚本“Rscript.CG.r”，分析DNA甲基化CG位点count数的circlePlot图；
+- 可以参考R脚本“Rscript.CG.r”，分析DNA甲基化CG位点count数的circlePlot图；
 
-可以参考R脚本“Rscript.bed.r”，分析MeRIP-seq位点值的circlePlot图；
+- 可以参考R脚本“Rscript.bed.r”，分析MeRIP-seq位点值的circlePlot图；
 
-脚本和示例文件存放在文件夹"Circlize"
+- 脚本和示例文件存放在文件夹"Circlize"
+
+示例如如下：
+
+![image](https://user-images.githubusercontent.com/26337757/199650360-a125c2ef-6008-4598-98ac-0f3a9954ccd8.png)
+![image](https://user-images.githubusercontent.com/26337757/199650377-da9cd1af-17e6-4235-9390-617ad836d21c.png)
+
 
 
