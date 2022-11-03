@@ -80,3 +80,21 @@ two methods for circlePlot
 
 https://zhuanlan.zhihu.com/p/45095532
 
+
+## Circlize
+
+### installation
+
+```
+conda install -c conda-forge r-circlize
+```
+
+### 脚本和示例文件
+
+可以参考R脚本“Rscript.CG.r”，分析DNA甲基化CG位点count数的circlePlot图；
+
+可以参考R脚本“Rscript.bed.r”，分析MeRIP-seq位点值的circlePlot图；
+
+脚本和示例文件存放在文件夹"Circlize"
+
+
